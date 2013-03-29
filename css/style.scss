@@ -213,7 +213,6 @@ nav {
 }
 
 .banner {
-  background-image: url("../img/banner.png");
   height: 416px;
   background-repeat: no-repeat;
   width: 100%;
@@ -407,7 +406,7 @@ footer {
 /*****************ABOUT****************************/
 
 .about-banner {
-  background: url("../img/about-banner.png") repeat scroll 0 0 transparent;
+  background: repeat scroll 0 0 transparent;
   height: 339px;
   margin: 0 auto;
   width: 980px;
@@ -660,7 +659,7 @@ footer {
   }
 }
 .petition-img {
-  background: url("../img/petition-img.png") repeat scroll 0 0 transparent;
+  background: repeat scroll 0 0 transparent;
   height: 378px;
   width: 563px;
 }
