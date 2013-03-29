@@ -370,23 +370,29 @@ footer {
   min-height: 600px;
   width: 980px; }
 
-.left-content > h1 {
-  color: #FF4E00;
-  font-family: dinbold;
-  font-size: 36px;
-  margin-bottom: 25px;
-  margin-top: 25px; }
-.left-content > h5 {
-  color: #6B6B6B;
-  font-family: dinmedium;
-  font-size: 20px;
-  margin-bottom: 10px;
-  margin-top: 10px; }
-.left-content > p {
+.left-content, .main-content {
   color: #6B6B6B;
   font-family: dinpromedium;
   font-size: 15px;
   line-height: 19px; }
+  .left-content h1, .main-content h1 {
+    color: #FF4E00;
+    font-family: dinbold;
+    font-size: 36px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    line-height: 36px; }
+  .left-content h2, .main-content h2 {
+    color: #6B6B6B;
+    font-family: dinmedium;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px; }
+  .left-content p, .main-content p {
+    color: #6B6B6B;
+    font-family: dinpromedium;
+    font-size: 15px;
+    line-height: 19px; }
 
 .right-content {
   float: left;
